@@ -4,9 +4,14 @@
 [![Burp Suite](https://img.shields.io/badge/Burp%20Suite-2021+-orange.svg)](https://portswigger.net/burp)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+
+
+
 ## 架构概览
 
 XSS-Detector是一款面向Burp Suite的扩展插件，专注于检测Web应用中的跨站脚本(XSS)漏洞。本插件采用多线程并发设计，通过精确的请求-响应-漏洞映射关系，提升测试效率和结果准确性。
+
+
 
 ### 核心技术栈
 
@@ -17,7 +22,8 @@ XSS-Detector是一款面向Burp Suite的扩展插件，专注于检测Web应用�
 - **Swing UI组件**：双面板界面设计，清晰呈现测试结果
 
 ## 界面使用指南
-
+[![UI-1](https://github.com/Deep0/XSS-Detector/blob/main/UI-1.png?raw=true)](UI1)
+[![UI-2](https://github.com/Deep0/XSS-Detector/blob/main/UI-2.png?raw=true)](UI2)
 ### 1. 配置面板
 
 位于插件顶部的标签页，提供核心配置选项：
